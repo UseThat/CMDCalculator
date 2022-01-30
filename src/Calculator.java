@@ -14,10 +14,10 @@ public class Calculator {
         return a - b;
     }
     double subtract(double a, double b, double c){
-        return add(a,b) - c;
+        return subtract(a,b) - c;
     }
 
     double subtract(double a, double b, double c,double d) {
-        return add(a, b, c) - d;
+        return subtract(a, b, c) - d;
     }
 }
